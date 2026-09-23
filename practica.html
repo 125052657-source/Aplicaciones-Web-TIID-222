@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .contenedor {
+           /*  display: flex;
+            flex-direction: row; */
+            gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+        .card-larga {
+            grid-column: 3;
+            grid-row: span 3;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="card" style="background-color:blue; width: 200px;"> Ya vamonos sofia </div>
+        <div class="card" style="background-color:blue; width: 200px;"> Ya vamonos sofia</div>
+        <div class="card" style="background-color:blue; width: 200px;">El chilango es puto</div>
+        <div class="card" style="background-color:chartreuse; width: 250px;"> Ya me quiero ir</div>
+        <div class="card" style="background-color:chartreuse; width: 250px;"> Ya me quiero ir</div>
+        <div class="card" style="background-color:chartreuse; width: 250px;"> Ya me quiero ir</div>
+        <div class="card" style="background-color:chartreuse; width: 250px;"> Ya me quiero ir</div>    </div>
+
+    
+    </div>
+
+    
+
+
+
+
+</body>
+</html>

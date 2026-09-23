@@ -20,8 +20,8 @@
             background: #00b7ff;
             padding: 20px 40px;
             margin: 20px;
-            border: 20px Double black;
-
+            /* border: 20px Double black;
+ */
         }
         .seccion1 {
             /*Fonfo*/
@@ -32,10 +32,10 @@
             padding-bottom: 20px; /* → Abajo */
             padding-left: 40px; /* → Izquierda */
 
-            margin-top: 20px; /* → Arriba */
-            margin-right: 30px; /* → Derecha */
-            margin-bottom: 40px; /* → Abajo */
-            margin-left: 50px; /* → Izquierda */
+            /* margin-top: 20px;  *//* → Arriba */
+            /* margin-right: 30px; */ /* → Derecha */
+            /* margin-bottom: 40px; */ /* → Abajo */
+            /* margin-left: 50px; */ /* → Izquierda */
 
 
 
