@@ -40,11 +40,18 @@
                 while($row=mysqli_fetch_array($query)){
             ?>
             <tr>
-                <td><php echo $rom['matricula']?></td>        
-                <td><php echo $rom['nombre']?></td>
-                <td><php echo $rom['apema']?></td>
-                <td><php echo $rom['apepa']?></td>
-                <td><php echo $rom['edad']?></td>
+                <td><?php echo $row['matricula']?></td>        
+                <td><?php echo $row['nombre']?></td>
+                <td><?php echo $row['apema']?></td>
+                <td><?php echo $row['apepa']?></td>
+                <td><?php echo $row['edad']?></td>
+                <td>
+                    <br>
+                    <a href="Editar.php?id=<?php echo $row['matricula']; ?>">Editar</a>
+                    <a href="delete.php?id=<?php echo $row['matricula']; ?>">Eliminar</a>
+
+
+                </td>
             </tr>
             <?php
                 }
