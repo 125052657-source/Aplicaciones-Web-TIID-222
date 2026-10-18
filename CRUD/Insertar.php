@@ -1,9 +1,7 @@
 <?php
 
 #Hace la conexion 
-include(Conexion.php);
-
-
+include("Conexion.php");
 $con = conectar();
 
     #Recibir la informacion del formulario
@@ -24,13 +22,8 @@ $con = conectar();
 
     #Comprobamos si se inserto o no el alumno
     if($query){
-        header("Location: alumnos.php");
+        header("Location: Alumnos.php");
         }else{
         echo"Error al insertar al alumno";
     }
-
-
-
-
-
 ?>
